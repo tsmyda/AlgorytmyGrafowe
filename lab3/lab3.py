@@ -61,4 +61,3 @@ def stoerWagner(graphdir):
 
 to_skip = ['grid100x100'] 
 run_tests(stoerWagner, './graphs-lab3/', to_skip)
-    
