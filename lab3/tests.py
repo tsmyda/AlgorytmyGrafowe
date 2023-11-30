@@ -12,7 +12,7 @@ def run_tests(function, graph_dir, to_continue = None):
     errors = 0
     START = time.time()
     for path in os.listdir(graph_dir):
-        if path in to_continue: 
+        if to_continue is not None and path in to_continue: 
             print(f"Graph {path} - skipped")
             continue
         file_path = os.path.join(graph_dir, path)
