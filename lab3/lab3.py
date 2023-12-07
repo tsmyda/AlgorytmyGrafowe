@@ -24,7 +24,7 @@ def mergeVertices(graph, x, y):
 
 def minimumCutPhase(G):
     n = len(G)
-    a = 1
+    a = 0
     S = []
     queue=PriorityQueue()
     queue.put((0, a))
